@@ -1,12 +1,20 @@
+/* Ste font for all */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Header1 style */
 h1 {
     color: darkblue;
     text-align: center;
 }
 
+/* Paragraph style */
 p {
     color: black;
 }
 
+/* id: pet_link style */
 #pet_link {
     color: darkblue;
     font-size: 25px;
