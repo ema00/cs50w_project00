@@ -1,8 +1,13 @@
 h1 {
-    color: blue;
+    color: darkblue;
     text-align: center;
 }
 
 p {
-    color: red;
+    color: black;
+}
+
+#pet_link {
+    color: darkblue;
+    font-size: 25px;
 }
