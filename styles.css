@@ -14,8 +14,20 @@ p {
     color: black;
 }
 
-/* id: pet_link style */
-#pet_link {
+/* class: pet_link style */
+.pet_link {
     color: darkblue;
     font-size: 25px;
+}
+
+/* class: home_link style */
+.home_link {
+    color: darkred;
+    font-size: 25px;
+}
+
+/* id: home_title; style for the home page title */
+#home_title {
+    color: darkred;
+    font-size: 45px;
 }
