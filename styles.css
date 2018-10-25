@@ -51,6 +51,12 @@ td {
     font-size: 25px;
 }
 
+/* class: pet_name style; for the hame of the pets in the tables */
+.pet_name {
+    color: darkblue;
+    font-weight: bold;
+}
+
 /* id: home_title; style for the home page title */
 #home_title {
     color: darkred;
