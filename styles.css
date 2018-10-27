@@ -38,7 +38,7 @@ td {
     padding-left: 10px
 }
 
-/* class: pet_name style; for the hame of the pets in the tables */
+/* class: pet_name style; for the name of the pets in the tables */
 .pet_name {
     color: darkblue;
     font-weight: bold;
@@ -57,4 +57,11 @@ td {
 #home_title {
     color: darkred;
     font-size: 45px;
+}
+
+/* media query: hide things in hide_sm_scr class in screens whose width is < 768px */
+@media screen and (max-width: 768px) {
+  .hide_sm_scr {
+    display: none;
+  }
 }
