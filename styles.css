@@ -38,12 +38,6 @@ td {
     padding-left: 10px
 }
 
-/* class: pet_link style */
-.pet_link {
-    color: darkblue;
-    font-size: 25px;
-}
-
 /* class: home_link style */
 .home_link {
     color: darkred;
@@ -54,6 +48,12 @@ td {
 .pet_name {
     color: darkblue;
     font-weight: bold;
+}
+
+/* id: pet_link style; for styling the links to the pets pages */
+#pet_link {
+    color: darkblue;
+    font-size: 25px;
 }
 
 /* id: home_title; style for the home page title */
