@@ -38,12 +38,6 @@ td {
     padding-left: 10px
 }
 
-/* class: home_link style */
-.home_link {
-    color: darkred;
-    font-size: 25px;
-}
-
 /* class: pet_name style; for the hame of the pets in the tables */
 .pet_name {
     color: darkblue;
