@@ -1,10 +1,9 @@
 /* variables (for colors) */
-h1, .pet_name {
+h1, #pet_link, .pet_name {
   color: darkblue;
 }
 
 #pet_link {
-  color: darkblue;
   background-color: #e9ecef;
 }
 
