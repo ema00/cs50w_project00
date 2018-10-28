@@ -1,0 +1,20 @@
+/* variables (for colors) */
+h1, .pet_name {
+  color: darkblue;
+}
+
+#pet_link {
+  color: darkblue;
+  background-color: #e9ecef;
+}
+
+th {
+  background-color: #466eaf;
+}
+
+/* back color for even rows of tables */
+tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+/*# sourceMappingURL=styles_vars.css.map */

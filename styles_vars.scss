@@ -1,0 +1,22 @@
+/* variables (for colors) */
+$theme_color_dblue: darkblue;
+$theme_color_blue: #466eaf;
+$theme_color_gray: #e9ecef;
+
+h1, .pet_name {
+    color: $theme_color_dblue;
+}
+
+#pet_link {
+    color: $theme_color_dblue;
+    background-color: $theme_color_gray;
+}
+
+th {
+    background-color: $theme_color_blue;
+}
+
+/* back color for even rows of tables */
+tr:nth-child(even) {
+    background-color: $theme_color_gray;
+}
