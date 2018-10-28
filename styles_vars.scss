@@ -1,15 +1,25 @@
 /* variables (for colors) */
-$theme_color_dblue: darkblue;
+$theme_color_darkblue: darkblue;
 $theme_color_blue: #466eaf;
 $theme_color_gray: #e9ecef;
 
+/* Color for highlighting text */
+%text_highlight {
+  color: $theme_color_darkblue;
+}
+
+/* Color for highlighting background */
+%background_highlight {
+  background-color: $theme_color_gray;
+}
+
 h1, .pet_name {
-    color: $theme_color_dblue;
+    @extend %text_highlight;
 }
 
 #pet_link {
-    @extend h1;
-    background-color: $theme_color_gray;
+    @extend %text_highlight;
+    @extend %background_highlight;
 }
 
 th {
@@ -18,5 +28,14 @@ th {
 
 /* back color for even rows of tables */
 tr:nth-child(even) {
-    background-color: $theme_color_gray;
+    @extend %background_highlight;
+}
+
+/* This remarks text in list items */
+/* pet_name style; for the name of the pets in the tables */
+li {
+  span {
+    @extend %text_highlight;
+    font-weight: bold;
+  }
 }

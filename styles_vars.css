@@ -1,9 +1,11 @@
 /* variables (for colors) */
-h1, #pet_link, .pet_name {
+/* Color for highlighting text */
+li span, #pet_link, h1, .pet_name {
   color: darkblue;
 }
 
-#pet_link {
+/* Color for highlighting background */
+tr:nth-child(even), #pet_link {
   background-color: #e9ecef;
 }
 
@@ -12,8 +14,10 @@ th {
 }
 
 /* back color for even rows of tables */
-tr:nth-child(even) {
-  background-color: #e9ecef;
+/* This remarks text in list items */
+/* pet_name style; for the name of the pets in the tables */
+li span {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles_vars.css.map */
